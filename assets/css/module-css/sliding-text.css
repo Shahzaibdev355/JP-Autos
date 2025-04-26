@@ -1,0 +1,113 @@
+/*==============================================
+    Sliding Text
+===============================================*/
+.sliding-text {
+    position: relative;
+    display: block;
+    z-index: 3;
+}
+
+.sliding-text__inner {
+    position: relative;
+    display: block;
+    background-color: var(--crank-base);
+    padding: 20px 0 20px;
+}
+
+.sliding-text__list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    flex-wrap: nowrap;
+}
+
+.sliding-text__list li {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.sliding-text__list li+li {
+    margin-left: 45px;
+}
+
+.sliding-text__list li .icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(var(--crank-white-rgb), .20);
+    border-radius: 50%;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.sliding-text__list li:hover .icon {
+    background-color: rgba(var(--crank-white-rgb), 1);
+}
+
+.sliding-text__list li .icon span {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    color: var(--crank-white);
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.sliding-text__list li:hover .icon span {
+    color: var(--crank-base);
+}
+
+.sliding-text__list li>p {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 45px;
+    color: var(--crank-white);
+    font-family: var(--crank-font-two);
+    text-transform: capitalize;
+    position: relative;
+    display: block;
+    top: 8px;
+    -webkit-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+.sliding-text__list li:hover>p {
+    color: var(--crank-black);
+}
+
+
+/*--------------------------------------------------------------
+  # Sliding Text Two
+  --------------------------------------------------------------*/
+.sliding-text-two .sliding-text__inner {
+    background-color: var(--crank-black);
+}
+
+.sliding-text-two .sliding-text__list li .icon {
+    background-color: rgba(var(--crank-white-rgb), .10);
+}
+
+.sliding-text-two .sliding-text__list li:hover .icon span {
+    color: var(--crank-base);
+}
+
+.sliding-text-two .sliding-text__list li:hover>p {
+    color: var(--crank-base);
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------------------
+  # End
+  --------------------------------------------------------------*/
