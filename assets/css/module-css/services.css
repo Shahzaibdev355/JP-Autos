@@ -6,6 +6,9 @@
     display: block;
     /* padding: 120px 0 0; */
     z-index: 1;
+
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .services-one__inner {
@@ -29,7 +32,7 @@
 .services-one__single {
     position: relative;
     display: block;
-    border: 2px solid var(--crank-black);
+    /* border: 2px solid var(--crank-black); */
     border-radius: 20px;
     text-align: center;
     padding: 30px 30px 25px;
@@ -53,7 +56,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--crank-black);
+    background-color: var(--crank-base);
     border-radius: 17px;
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
@@ -118,7 +121,7 @@
     height: 100px;
     width: 100px;
     margin: 0 auto 0;
-    background-color: var(--crank-black);
+    background-color: var(--crank-base);
     border-radius: 50%;
     border: 1px solid transparent;
     overflow: hidden;

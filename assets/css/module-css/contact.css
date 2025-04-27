@@ -365,7 +365,7 @@
     display: block;
     max-width: 1680px;
     margin: 0 auto;
-    background-color: var(--crank-black);
+    background-color: #2D46A3;
     border-radius: 60px;
     padding: 120px 0 120px;
 }
@@ -377,7 +377,7 @@
 .contact-two__single {
     position: relative;
     display: block;
-    background-color: #232323;
+    background-color: white;
     border-radius: 20px;
     padding: 35px 30px 30px;
     margin-bottom: 30px;
@@ -390,7 +390,7 @@
     gap: 20px;
     font-size: 18px;
     font-weight: 600;
-    color: var(--crank-white);
+    color: black;
     text-transform: capitalize;
     margin-bottom: 23px;
 }
@@ -414,11 +414,11 @@
 }
 
 .contact-two__list li p {
-    color: var(--crank-white);
+    color: black;
 }
 
 .contact-two__list li p a {
-    color: var(--crank-white);
+    color: black;
 }
 
 .google-map__one {
@@ -427,7 +427,7 @@
     border: none;
     height: 310px;
     width: 100%;
-    filter: grayscale(1);
+    /* filter: grayscale(1); */
     border-radius: 20px;
 }
 
@@ -439,7 +439,8 @@
 }
 
 .contact-two__btn-box .thm-btn {
-    background-color: #232323;
+    background-color: white;
+    color: black;
 }
 
 .contact-two__btn-box .thm-btn span {

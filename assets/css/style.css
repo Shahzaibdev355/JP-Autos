@@ -22,7 +22,8 @@
   --crank-font-two: "Archivo", sans-serif;
   --crank-gray: #17080A;
   --crank-gray-rgb: 23, 8, 10;
-  --crank-base: #E8092E;
+  /* --crank-base: #E8092E; */
+  --crank-base: #BE1428;
   --crank-base-rgb: 232, 9, 46;
   --crank-black: #171717;
   --crank-black-rgb: 23, 23, 23;
@@ -361,7 +362,9 @@ ul {
 
 .thm-btn::after {
   content: "";
-  background-color: var(--crank-black);
+  /* background-color: var(--crank-black); */
+  background: #FFF8F8!important;
+  opacity: 0.2;
   position: absolute;
   top: 0;
   width: 100%;
@@ -522,9 +525,9 @@ ul {
   height: 30px;
   line-height: 30px;
   text-align: center;
-  border: 2px solid #fff;
+  border: 2px solid black;
   border-radius: 50%;
-  color: #fff;
+  color: black;
   font-size: 16px;
   font-weight: 400;
   -webkit-transition: all 500ms ease;
@@ -541,8 +544,8 @@ ul {
   left: -100%;
   top: 0;
   bottom: 0;
-  width: 100%;
-  max-width: 360px;
+  width: 40%;
+  /* max-width: 360px; */
   z-index: 999999;
   overflow: hidden;
   overflow-y: auto;
@@ -558,14 +561,17 @@ ul {
   opacity: 1;
   visibility: visible;
   left: 0;
-  background-color: var(--crank-black);
+  background-color: white;
   -webkit-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
   -o-transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
   transition: all 0.7s cubic-bezier(0.9, 0.03, 0, 0.96) 0.4s;
 }
 
 .sidebar-textwidget {
-  padding: 70px 30px;
+  /* padding: 70px 30px; */
+  padding: 30px 30px 50px 30px;
+
+  
 }
 
 .sidebar-widget-container {
@@ -617,7 +623,7 @@ ul {
   display: block;
   font-size: 20px;
   line-height: 30px;
-  color: #fff;
+  color: black;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -629,7 +635,7 @@ ul {
 }
 
 .xs-sidebar-group .content-inner .content-box p {
-  color: #ffffff;
+  color: black;
 }
 
 .xs-sidebar-group .content-inner .form-inner .form-group {
@@ -650,6 +656,7 @@ ul {
   height: 50px;
   font-size: 15px;
   padding: 10px 20px;
+  background-color: #F4F4F4;
   color: #848484;
   border: none;
   border-radius: 10px;
@@ -660,12 +667,12 @@ ul {
 .xs-sidebar-group .content-inner .form-inner .form-group .form-inner__btn {
   border: none;
   outline: none;
-  background-color: var(--crank-white);
-  color: var(--crank-black);
+  background-color: var(--crank-base);
+  color: white;
   display: inline-block;
   font-size: 16px;
   font-weight: 600;
-  padding: 13px 45px;
+  padding: 10px 45px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
@@ -731,7 +738,11 @@ ul {
   justify-content: space-between;
   flex-wrap: wrap;
   padding: 0 40px 0;
-  background-color: #232323;
+
+  /* background-color: #232323; */
+  background-color: white;
+
+
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   z-index: 1;
@@ -740,7 +751,7 @@ ul {
 .main-header__logo {
   position: relative;
   display: block;
-  padding: 30px 0;
+  padding: 20px 0;
   z-index: 2;
 }
 
@@ -777,17 +788,23 @@ ul {
   justify-content: center;
   height: 40px;
   width: 40px;
-  background-color: rgba(var(--crank-white-rgb), .10);
+  /* background-color: rgba(var(--crank-white-rgb), .10); */
+  background-color: #BE1428;
   border-radius: 50%;
   font-size: 15px;
-  color: var(--crank-white);
+  /* color: var(--crank-white); */
+  color: white;
   overflow: hidden;
   z-index: 1;
 }
 
 .main-menu__social a:hover {
   color: var(--crank-base);
-  background-color: var(--crank-white);
+  /* background-color: var(--crank-white); */
+  background-color: #FFF8F8!important;
+  opacity: 1;
+
+  border: 1px solid var(--crank-base);
 }
 
 .main-menu__social a:after {
@@ -797,7 +814,10 @@ ul {
   left: 0;
   right: 0;
   height: 100%;
-  background-color: var(--crank-white);
+  /* background-color: var(--crank-white); */
+  background-color: transparent!important;
+  /* opacity: 0.2; */
+
   -webkit-transition-delay: .1s;
   transition-delay: .1s;
   -webkit-transition-timing-function: ease-in-out;
@@ -813,7 +833,7 @@ ul {
   transform-style: preserve-3d;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
-  z-index: -1;
+  z-index: 1;
 }
 
 .main-menu__social a:hover:after {
@@ -884,7 +904,8 @@ ul {
 
 
 .stricky-header.main-menu {
-  background-color: var(--crank-black);
+  /* background-color: var(--crank-black); */
+  background-color: white;
 }
 
 .stricky-header .main-menu__wrapper-inner {
@@ -929,8 +950,9 @@ ul {
 
 .main-menu .main-menu__list>li,
 .stricky-header .main-menu__list>li {
-  padding-top: 37.5px;
-  padding-bottom: 37.5px;
+  /* padding-top: 37.5px;
+  padding-bottom: 37.5px; */
+  padding: 20px 0px;
   position: relative;
 }
 
@@ -948,7 +970,8 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: var(--crank-white);
+  /* color: var(--crank-white); */
+  color: black;
   font-weight: 600;
   text-transform: capitalize;
   position: relative;
@@ -1912,14 +1935,19 @@ ul {
 
 .main-menu-four__btn-box .thm-btn {
   padding: 12px 30px 12px;
-  background-color: transparent;
+  background-color: var(--crank-base);
   border: 1px solid var(--crank-bdr-color);
-  color: var(--crank-black);
+  color: white;
+  font-weight: 400;
+  padding: 5px 30px 5px;
 }
 
 .main-menu-four__btn-box .thm-btn:hover {
   color: var(--crank-white);
-  border: 1px solid var(--crank-black);
+
+  /* background: #D01B32!important; */
+  
+  /* border: 1px solid var(--crank-black); */
 }
 
 .main-menu-four .main-menu__list>li,
@@ -2175,9 +2203,47 @@ ul {
 }
 
 
+.navSidebar-contact-button{
+  background-color: var(--crank-base);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
 
 
 
+
+
+/* Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  /* Make the track transparent */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--crank-base);
+  border-radius: 10px;
+  border: none;
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--crank-base) transparent;
+
+  }
+
+  *::-moz-scrollbar-thumb {
+    border-radius: 10px;
+    /* Add border-radius here */
+  }
+}
 
 
 
