@@ -42,6 +42,8 @@
     transition: all 500ms ease;
     z-index: 1;
     background-color: #F4F4F4;
+
+    height: 330px;
 }
 
 .services-one__single:hover {
@@ -207,6 +209,8 @@
 .services-one__text {
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
+
+    font-size: 14px;
 }
 
 .services-one__single:hover .services-one__text {
@@ -719,7 +723,8 @@
 .service-details__bottom {
     position: relative;
     display: block;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin-top: 9pc;
 }
 
 .service-details__bottom-left {

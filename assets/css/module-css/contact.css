@@ -370,6 +370,22 @@
     padding: 120px 0 120px;
 }
 
+
+.contact-two__inner-contact {
+    margin-top: 4pc!important;
+    position: relative;
+    display: block;
+    max-width: 1680px;
+    margin: 0 auto;
+    background-color: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    /* border-radius: 60px; */
+    padding: 90px 0 60px;
+}
+
+
+
 .contact-two__inner .section-title-two__title {
     color: var(--crank-white);
 }
@@ -381,6 +397,20 @@
     border-radius: 20px;
     padding: 35px 30px 30px;
     margin-bottom: 30px;
+
+    height: 235px;
+}
+
+
+.contact-two__single-contact {
+    position: relative;
+    display: block;
+    background-color: #F4F4F4;
+    border-radius: 20px;
+    padding: 35px 30px 30px;
+    margin-bottom: 30px;
+
+    height: 235px;
 }
 
 .contact-two__title {
@@ -462,15 +492,22 @@
 .contact-three {
     position: relative;
     display: block;
-    padding: 120px 0 0;
+    padding: 0px 0 0;
     z-index: 1;
+    margin-bottom: 3pc;
 }
 
 .contact-three__inner {
     position: relative;
     display: block;
-    background-color: #F4F4F4;
-    border-radius: 30px;
+    background-color: white;
+
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    /* border-radius: 60px; */
     padding: 80px 80px 80px;
 }
 
@@ -499,7 +536,7 @@
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: var(--crank-white);
+    background-color: #F4F4F4;
     border: none;
     padding-left: 30px;
     padding-right: 30px;
@@ -518,7 +555,7 @@
 .contact-three__input-box .nice-select {
     height: 60px;
     width: 100%;
-    background-color: var(--crank-white);
+    background-color: #F4F4F4;
     border: none;
     padding-left: 30px;
     padding-right: 30px;
@@ -552,7 +589,7 @@
     position: relative;
     height: 135px;
     width: 100%;
-    background-color: var(--crank-white);
+    background-color: #F4F4F4;
     border: none;
     padding-top: 10px;
     padding-left: 30px;

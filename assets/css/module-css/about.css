@@ -73,9 +73,9 @@
 }
 
 .about-one__points li .text p {
-    font-size: 18px;
+    font-size: 15.6px;
     font-weight: 600;
-    line-height: 28px;
+    line-height: 20px;
     font-family: var(--crank-font-two);
 }
 

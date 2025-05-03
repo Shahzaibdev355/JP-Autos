@@ -29,7 +29,7 @@
       nav: true,
       dots: false,
       smartSpeed: 500,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout: 7000,
       navText: [
         '<span class="icon-arrow-right"></span>',
