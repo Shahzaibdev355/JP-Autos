@@ -520,7 +520,8 @@
 }
 
 .pricing-two__btn-box .thm-btn::after {
-    background-color: var(--crank-base);
+    background-color: #BE1428!important;
+    opacity: 1!important;
 }
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn::after {
@@ -529,6 +530,8 @@
 }
 
 .pricing-two__single:hover .pricing-two__btn-box .thm-btn {
+    opacity: 1!important;
+background-color: #BE1428!important;
     color: var(--crank-white);
 }
 

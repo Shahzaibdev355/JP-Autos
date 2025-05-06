@@ -143,13 +143,13 @@
 .gallery-two {
     position: relative;
     display: block;
-    background-color: var(--crank-black);
+    background-color: white;
     padding: 120px 0 120px;
     z-index: 1;
 }
 
 .gallery-two .section-title__title {
-    color: var(--crank-white);
+    color: black;
 }
 
 .gallery-two__tab-box {
@@ -309,7 +309,7 @@
     width: 50px;
     height: 10px;
     border-radius: 5px;
-    background-color: rgba(244, 244, 244, .10);
+    background-color: #f6e5e5;
     margin: 0px;
     padding: 0px;
     transition: all 100ms linear;

@@ -2249,6 +2249,15 @@ ul {
 
 
 
+.car-info-row{
+  background-color: white;
+  margin: auto;
+
+ border-radius: 14px;
+ margin-top: 4pc;
+ padding: 15px;
+}
+
 
 
 

@@ -479,7 +479,7 @@
 .service-details {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 120px 0 70px;
     z-index: 1;
 }
 
@@ -862,6 +862,47 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service-details__bottom-cars {
+    position: relative;
+    display: block;
+    /* margin-top: 40px; */
+    margin-top: 0pc;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+.service-details__bottom-img-cars {
+    position: relative;
+    display: block;
+}
+
+.service-details__bottom-img-cars img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.service-details__bottom-title-cars {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
 
 
 
