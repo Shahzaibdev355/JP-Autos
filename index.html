@@ -54,6 +54,7 @@
     <link rel="stylesheet" href="assets/css/module-css/pricing.css" />
     <link rel="stylesheet" href="assets/css/module-css/blog.css" />
     <link rel="stylesheet" href="assets/css/module-css/why-choose.css" />
+    <link rel="stylesheet" href="assets/css/module-css/cta.css" />
 
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -64,9 +65,9 @@
     <!-- <div class="custom-cursor__cursor"></div>
     <div class="custom-cursor__cursor-two"></div> -->
 
-    <div class="preloader">
+    <!-- <div class="preloader">
         <div class="preloader__image"></div>
-    </div> 
+    </div>  -->
 
     <!-- /.preloader-->
 
@@ -432,7 +433,7 @@
 
 
                         <div class="service-details__bottom-img col-md-5">
-                            <img src="assets/images/about-us4.jpg" alt="">
+                            <img src="assets/images/our-legacy.jpg" alt="">
                         </div>
 
                         <div class="col-md-6">
@@ -561,6 +562,38 @@
         <!--Services One End -->
 
 
+        <!--CTA One Start -->
+        <section class="cta-one">
+            <div class="cta-one__bg jarallax" data-jarallax data-speed="0.05" data-imgPosition="50% 0%"
+                style="background-image: url(/assets/images/backgrounds/cta-one-bg.jpg);"></div>
+            <div class="container">
+                <div class="cta-one__inner">
+
+                    <img src="/assets/images/MOT-icon-transparent-471x425-1.png" alt="" class="cta-one__inner-img1">
+
+                    <img src="/assets/images/img1-02.png" alt="" class="cta-one__inner-img2">
+
+                    <!-- <h3 class="cta-one__title">Get Premium Auto Car Service <br> Feel Free To <a
+                            href="contact.html">Contact Us</a></h3>
+                    <div class="cta-one__btn-and-video-link">
+                        <div class="cta-one__btn">
+                            <a href="contact.html" class="thm-btn">Contact Us<span
+                                    class="icon-arrow-up-right"></span></a>
+                        </div>
+                        <div class="cta-one__video-link">
+                            <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                                <div class="cta-one__video-icon">
+                                    <span class="icon-video"></span>
+                                    <i class="ripple"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!--CTA One End -->
+
         <!--Why Choose One Start-->
         <section class="why-choose-one" style="padding-top: 6pc;">
             <div class="container">
@@ -574,7 +607,8 @@
                                 </div>
 
                                 <h2 class="section-title-two__title title-animation">Committed to Quality
-                                    <span><br></span> Automotive Service</h2>
+                                    <span><br></span> Automotive Service
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -1014,15 +1048,24 @@
                 <div class="site-footer-three__top">
                     <div class="container">
                         <div class="site-footer-three__top-inner">
+
                             <div class="row">
-                                <div class="col-md-5 wow fadeInUp" data-wow-delay="100ms">
+                                <div class="footer-widget__about">
+                                    <div class="footer-widget__about-logo">
+                                        <a href="/"><img src="assets/images/jandp-logo-bg.png" alt=""
+                                                class="jp-logo"></a>
+
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row  footer-details-row">
+
+
+                                <div class="col-md-3 wow fadeInUp" data-wow-delay="100ms">
                                     <div class="footer-widget__about">
-                                        <div class="footer-widget__about-logo">
-                                            <a href="/"><img src="assets/images/jandp-logo-bg.png" alt=""
-                                                    class="jp-logo"></a>
 
-
-                                        </div>
                                         <div class="footer-widget__contact-info">
                                             <ul class="footer-widget__contact-list list-unstyled">
                                                 <li>
@@ -1030,10 +1073,9 @@
                                                         <span class="icon-pin"></span>
                                                         <p>Address:</p>
                                                     </div>
-                                                    <p class="footer-widget__contact-text">206A Penarth Rd, Cardiff CF11
-                                                        6NN,
+                                                    <p class="footer-widget__contact-text">206A Penarth Rd, Cardiff
                                                         <span><br></span>
-                                                        United Kingdom
+                                                        CF11 6NN, United Kingdom
                                                     </p>
                                                 </li>
                                                 <li>
@@ -1060,34 +1102,59 @@
 
                                 <div class="col-md-3 wow fadeInUp" data-wow-delay="400ms">
                                     <div class="footer-widget__services">
+                                        <h4 class="footer-widget__title"> <span class="icon-clock"></span> OPENING HOURS
+                                        </h4>
+                                        <ul class="footer-widget__page-link-list list-unstyled">
+                                            <li>
+
+                                                <p> Monday to Friday</p>
+                                                <p>08:30- 17.30</p>
+
+                                            </li>
+                                            <li>
+                                                <p>Saturday</p>
+                                                <p>08:30 - 13:00</p>
+                                            </li>
+                                            <li>
+
+                                                <p>Sunday</p>
+                                                <p>Closed</p>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3 wow fadeInUp" data-wow-delay="400ms">
+                                    <div class="footer-widget__services">
                                         <h4 class="footer-widget__title">Our Services</h4>
                                         <ul class="footer-widget__page-link-list list-unstyled">
                                             <li>
-                                                <a href="easy-drive-maintenance.html">
+                                                <a href="/ContactUs/">
                                                     <span class="icon-double-arrow-right"></span>
                                                     <p>M.O.T & Diagnostic Testing</p>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="elite-auto-services.html">
+                                                <a href="/ContactUs/">
                                                     <span class="icon-double-arrow-right"></span>
                                                     <p>Routine Servicing</p>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="smooth-ride-vehicle-care.html">
+                                                <a href="/ContactUs/">
                                                     <span class="icon-double-arrow-right"></span>
                                                     <p>Breakdown Recovery & Repair</p>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="careful-car-service-station.html">
+                                                <a href="/ContactUs/">
                                                     <span class="icon-double-arrow-right"></span>
                                                     <p>Premium service</p>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="auto-pro-mechanic-shop.html">
+                                                <a href="/ContactUs/">
                                                     <span class="icon-double-arrow-right"></span>
                                                     <p>Advice and assistance</p>
                                                 </a>
@@ -1096,7 +1163,8 @@
                                     </div>
                                 </div>
 
-                                <div class="col-md-3 wow fadeInUp" data-wow-delay="200ms">
+                                <div class="col-md- wow fadeInUp  site-footer-three__img-box-div"
+                                    data-wow-delay="200ms">
                                     <div class="site-footer-three__right">
 
 

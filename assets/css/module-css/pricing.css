@@ -511,6 +511,7 @@
     position: relative;
     display: block;
     margin-top: 28px;
+    padding-bottom: 25px;
 }
 
 .pricing-two__btn-box .thm-btn {

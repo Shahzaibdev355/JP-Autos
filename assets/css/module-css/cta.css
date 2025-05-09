@@ -5,7 +5,7 @@
     position: relative;
     display: block;
     background-color: var(--crank-black);
-    padding: 100px 0 100px;
+    padding: 50px 0 50px;
     z-index: 1;
 }
 
@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: .20;
+    opacity: .1;
     z-index: -1;
 }
 
@@ -27,7 +27,19 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.cta-one__inner-img1{
+    width: 22%;
+    align-self: center;
+    align-items: center;
+}
+
+.cta-one__inner-img2{
+    width: 15%;
+    align-self: center;
+    align-items: center;
 }
 
 .cta-one__title {

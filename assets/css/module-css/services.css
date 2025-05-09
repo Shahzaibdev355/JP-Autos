@@ -233,7 +233,9 @@
     background-color: var(--crank-white);
     border: 1px solid var(--crank-bdr-color);
     border-radius: 20px;
-    padding: 52px 40px 39px;
+    /* padding: 52px 40px 39px; */
+    padding: 25px 20px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -242,7 +244,7 @@
     font-weight: 600;
     line-height: 34px;
     text-transform: capitalize;
-    margin-bottom: 28px;
+    margin-bottom: 0px;
 }
 
 .services-two__title a {
@@ -255,7 +257,7 @@
 
 .services-two__icon {
     position: absolute;
-    top: 40px;
+    top: 10px;
     right: 40px;
 }
 
@@ -892,8 +894,9 @@
 
 .service-details__bottom-img-cars img {
     width: 100%;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    border-radius: 10px;
 }
 
 .service-details__bottom-title-cars {
@@ -901,7 +904,7 @@
     line-height: 34px;
     font-weight: 600;
     margin-top: 28px;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
 }
 
 
