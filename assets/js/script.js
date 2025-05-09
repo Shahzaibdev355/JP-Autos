@@ -949,32 +949,92 @@
 
 
 
-  function dynamicCurrentMenuClass(selector) {
-    let FileName = window.location.href.split("/").reverse()[0];
+  // function dynamicCurrentMenuClass(selector) {
+  //   let FileName = window.location.href.split("/").reverse()[0];
 
-    selector.find("li").each(function () {
-      let anchor = $(this).find("a");
-      if ($(anchor).attr("href") == FileName) {
-        $(this).addClass("current");
-      }
-    });
-    // if any li has .current elmnt add class
-    selector.children("li").each(function () {
-      if ($(this).find(".current").length) {
-        $(this).addClass("current");
-      }
-    });
-    // if no file name return
-    if ("" == FileName) {
-      selector.find("li").eq(0).addClass("current");
-    }
-  }
+  //   selector.find("li").each(function () {
+  //     let anchor = $(this).find("a");
+  //     if ($(anchor).attr("href") == FileName) {
+  //       $(this).addClass("current");
+  //     }
+  //   });
+  //   // if any li has .current elmnt add class
+  //   selector.children("li").each(function () {
+  //     if ($(this).find(".current").length) {
+  //       $(this).addClass("current");
+  //     }
+  //   });
+  //   // if no file name return
+  //   if ("" == FileName) {
+  //     selector.find("li").eq(0).addClass("current");
+  //   }
+  // }
 
-  if ($(".main-menu__list").length) {
-    // dynamic current class
-    let mainNavUL = $(".main-menu__list");
-    dynamicCurrentMenuClass(mainNavUL);
-  }
+  // if ($(".main-menu__list").length) {
+  //   // dynamic current class
+  //   let mainNavUL = $(".main-menu__list");
+  //   dynamicCurrentMenuClass(mainNavUL);
+  // }
+
+
+
+  $(document).ready(function () {
+    const menuItems = $(".main-menu__list li a");
+    const sections = menuItems
+      .map(function () {
+        const target = $(this).attr("href");
+        if (target.startsWith("#") && $(target).length) {
+          return $(target);
+        }
+      })
+      .get();
+  
+    const updateCurrentClass = () => {
+      let currentSection = null;
+  
+      // Determine which section is in the viewport
+      sections.forEach((section) => {
+        const offsetTop = section.offset().top;
+        const offsetBottom = offsetTop + section.outerHeight();
+        const scrollPos = $(window).scrollTop();
+  
+        if (scrollPos >= offsetTop - 50 && scrollPos < offsetBottom - 50) {
+          currentSection = section;
+        }
+      });
+  
+      // Update the current class in the menu
+      if (currentSection) {
+        const id = currentSection.attr("id");
+        $(".main-menu__list li").removeClass("current");
+        menuItems.filter(`[href="#${id}"]`).parent().addClass("current");
+      }
+    };
+  
+    // Update current class on page load and scroll
+    updateCurrentClass();
+    $(window).on("scroll", updateCurrentClass);
+  });
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
   if ($(".main-menu__list").length && $(".mobile-nav__container").length) {

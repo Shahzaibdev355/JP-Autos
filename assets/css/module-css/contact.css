@@ -508,7 +508,7 @@
     border-bottom-left-radius: 60px;
     border-bottom-right-radius: 60px;
     /* border-radius: 60px; */
-    padding: 80px 80px 80px;
+    padding: 0px 80px 80px;
 }
 
 .contact-three__title {
@@ -528,11 +528,13 @@
 .contact-three__input-box {
     position: relative;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .contact-three__input-box input[type="text"],
-.contact-three__input-box input[type="email"] {
+.contact-three__input-box input[type="email"],
+.contact-three__input-box input[type="date"],
+.contact-three__input-box input[type="time"]  {
     height: 60px;
     width: 100%;
     line-height: 60px;
@@ -545,7 +547,7 @@
     color: var(--crank-gray);
     display: block;
     font-weight: 400;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .contact-three__input-box .select-box {
