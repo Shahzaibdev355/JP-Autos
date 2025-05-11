@@ -54,7 +54,7 @@
     display: block;
     border: 1px solid var(--crank-bdr-color);
     border-radius: 20px;
-    padding: 27px 160px 26px;
+    padding: 27px 65px 26px;
     padding-right: 40px;
     margin-left: 30px;
     background-position: top left;
@@ -84,14 +84,14 @@
 }
 
 .testimonial-one__img img {
-    width: 100%;
+    width: 50%!important;
     border-radius: 20px;
 }
 
 .testimonial-one__client-info {
     position: relative;
     display: block;
-    margin-bottom: 21px;
+    margin-bottom: 7px;
 }
 
 .testimonial-one__client-name {
@@ -118,8 +118,8 @@
 .testimonial-one__text {
     /* color: var(--crank-white); */
     color: black;
-    font-size: 17px;
-    line-height: 27px;
+    font-size: 15px;
+    line-height: 25px;
 }
 
 .testimonial-one__quote {
@@ -474,6 +474,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-bottom: 7px;
 }
 
 .testimonial-three__ratting span {

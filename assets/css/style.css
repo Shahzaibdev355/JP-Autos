@@ -363,7 +363,7 @@ ul {
 .thm-btn::after {
   content: "";
   /* background-color: var(--crank-black); */
-  background: #FFF8F8!important;
+  background: #FFF8F8 !important;
   opacity: 0.2;
   position: absolute;
   top: 0;
@@ -571,7 +571,7 @@ ul {
   /* padding: 70px 30px; */
   padding: 30px 30px 50px 30px;
 
-  
+
 }
 
 .sidebar-widget-container {
@@ -801,7 +801,7 @@ ul {
 .main-menu__social a:hover {
   color: var(--crank-base);
   /* background-color: var(--crank-white); */
-  background-color: #FFF8F8!important;
+  background-color: #FFF8F8 !important;
   opacity: 1;
 
   border: 1px solid var(--crank-base);
@@ -815,7 +815,7 @@ ul {
   right: 0;
   height: 100%;
   /* background-color: var(--crank-white); */
-  background-color: transparent!important;
+  background-color: transparent !important;
   /* opacity: 0.2; */
 
   -webkit-transition-delay: .1s;
@@ -1946,7 +1946,7 @@ ul {
   color: var(--crank-white);
 
   /* background: #D01B32!important; */
-  
+
   /* border: 1px solid var(--crank-black); */
 }
 
@@ -2190,20 +2190,20 @@ ul {
 
 
 
-.jp-logo{
+.jp-logo {
   width: 240px;
 }
 
-.liscense-logo1{
-  width: 40%!important;
+.liscense-logo1 {
+  width: 40% !important;
 }
 
-.liscense-logo2{
-  width: 50%!important;
+.liscense-logo2 {
+  width: 50% !important;
 }
 
 
-.navSidebar-contact-button{
+.navSidebar-contact-button {
   background-color: var(--crank-base);
   color: white;
   padding: 10px 25px;
@@ -2249,35 +2249,34 @@ ul {
 
 
 
-.car-info-row{
+.car-info-row {
   background-color: white;
   margin: auto;
 
- border-radius: 14px;
- margin-top: 4pc;
- padding: 15px;
+  border-radius: 14px;
+  margin-top: 4pc;
+  padding: 15px;
 }
 
 
-.error{
-  font-size: 14px!important;
+.error {
+  font-size: 14px !important;
   padding-top: 2px;
   padding-left: 5px;
   color: #BE1428;
 }
 
 
+@media (max-width: 768px) {
+
+  .jp-logo {
+    width: 170px;
+  }
+
+}
 
 
 
 /*--------------------------------------------------------------
 # End
 --------------------------------------------------------------*/
-
-
-
-
-
-
-
-
