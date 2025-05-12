@@ -2273,6 +2273,109 @@ ul {
     width: 170px;
   }
 
+  .about-one {
+   
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+  }
+
+  .about-one__text-1 {
+    margin-bottom: 40px;
+    font-size: 15px;
+  }
+
+  .about-one__points li .text p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .service-details__bottom {
+   
+    margin-top: 5pc;
+  }
+
+  .my-journey-row{
+    flex-direction: column-reverse!important;
+    margin-top: 4pc!important;
+    margin-bottom: 4pc!important;
+  }
+  
+  .cta-one{
+    margin-top: 4pc;
+  }
+
+  .cta-one__inner-img1 {
+    padding-bottom: 2.5pc;
+    width: 35%;
+  }
+  .cta-one__inner-img2 {
+    width: 30%;
+  }
+
+  .contact-two__inner {
+   
+    border-radius: 40px;
+
+  }
+
+  .contact-two__list li p {
+    color: black;
+    font-size: 15px;
+  }
+
+  .faq-one .faq-one-accrodion .accrodion-content p {
+    font-size: 15px;
+  }
+
+  .faq-one .faq-one-accrodion .accrodion-title h4::before {
+   
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+
+  }
+
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  .testimonial-one__wrap {
+    position: relative;
+  
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+  }
+
+  .testimonial-one__img {
+    height: 100px;
+
+  }
+
+  .testimonial-one__carousel .owl-nav {
+    position: absolute;
+    top: -136px;
+    right: 0px;
+    margin: 0 !important;
+  }
+
+  .testimonial-one__wrap .section-title {
+    margin-bottom: 10pc;
+  }
+
+  .site-footer-three__top-inner {
+  
+      padding-left: 10px;
+  }
+
+  .scroll-to-top {
+ 
+    right: -42px;
+  }
+
 }
 
 

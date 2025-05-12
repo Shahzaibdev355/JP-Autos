@@ -958,7 +958,9 @@
     }
 
     .services-one__inner {
-        padding: 90px 0px 60px;
+        padding: 20px 0px 60px;
+        border-bottom-right-radius: 40px;
+        border-bottom-left-radius: 40px;
     }
 
     .about-one__text-1 br {
@@ -992,8 +994,8 @@
     }
 
     .faq-one .faq-one-accrodion .accrodion-title h4 {
-        font-size: 18px;
-        line-height: 28px;
+        font-size: 15px;
+        line-height: 23px;
     }
 
     .faq-one .faq-one-accrodion .accrodion-content {
@@ -1025,11 +1027,11 @@
     }
 
     .testimonial-one__carousel .owl-nav {
-        display: none;
+        display: block;
     }
 
     .testimonial-one__wrap {
-        padding: 90px 0px 60px;
+        padding: 60px 0px 10px;
     }
 
     .team-one__content {
@@ -1944,7 +1946,7 @@
 
 
     .about-one {
-        padding: 90px 0 90px;
+        padding: 70px 0 70px;
     }
 
     .gallery-one {

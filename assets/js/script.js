@@ -1556,8 +1556,12 @@
 
 
     if ($(".marquee_mode-2").length) {
+
+      const isMobileView = window.innerWidth <= 768; // Define mobile view based on screen width
+      const marqueeSpeed = isMobileView ? 10 : 20;  // Set speed to 10 for mobile and 20 otherwise
+
       $('.marquee_mode-2').marquee({
-        speed: 20,
+        speed: marqueeSpeed,
         gap: 0,
         delayBeforeStart: 0,
         direction: 'left',
@@ -1569,8 +1573,12 @@
 
 
     if ($(".marquee_mode-3").length) {
+
+      const isMobileView = window.innerWidth <= 768; // Define mobile view based on screen width
+      const marqueeSpeed = isMobileView ? 10 : 20;  // Set speed to 10 for mobile and 20 otherwise
+
       $('.marquee_mode-3').marquee({
-        speed: 20,
+        speed: marqueeSpeed,
         gap: 0,
         delayBeforeStart: 0,
         direction: 'right',
