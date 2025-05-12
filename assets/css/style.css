@@ -2266,6 +2266,10 @@ ul {
   color: #BE1428;
 }
 
+.car-info-br{
+  display: none;
+}
+
 
 @media (max-width: 768px) {
 
@@ -2375,6 +2379,135 @@ ul {
  
     right: -42px;
   }
+
+  .main-slider-two__shape-1 img {
+    width: 100% !important;
+  }
+  .main-slider-two__shape-1 {
+   
+    width: 100%;
+  }
+
+  .main-slider-two .item {
+ 
+    height: 45vh;
+
+  }
+
+ 
+
+  .car-info-br{
+    display: block;
+  }
+
+  .main-slider-two__shape-1 {
+    
+    opacity: 0.6;
+
+  }
+
+  .main-slider-two__img {
+    top: 70%;
+  }
+
+  .service-details__bottom-title-cars {
+   
+    padding-left: 10px;
+  }
+
+  .service-details__bottom-text-cars{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+  .pricing-two__btn-box {
+    
+    padding-bottom: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .car-info-row {
+   
+    margin-top: 2pc;
+    padding: 0px;
+  }
+
+  .service-details__text-3 {
+   
+    font-size: 14px;
+  }
+  
+  .service-details__text-3 span br{
+    display: none;
+  }
+
+  .product-description__list ul li{
+    padding-bottom: 7px;
+  }
+  .product-description__list ul li p {
+    font-size: 14px;
+  }
+
+  .service-details__single {
+  
+    padding: 25px 20px 25px;
+    margin-bottom: 40px;
+  }
+
+  .service-details__icon {
+
+    width: 55px;
+    height: 55px;
+  }
+
+  .service-details__icon span {
+  
+    font-size: 30px;
+  }
+
+  .service-details__single-title {
+    font-size: 21px;
+    margin-left: -5px;
+  }
+
+  .section-title {
+   
+    margin-bottom: 0px;
+
+  }
+
+
+
+
+
+.gallery-two__carousel.owl-carousel .owl-dots {
+  width: max-content;
+}
+
+
+.gallery-two__carousel.owl-carousel .owl-dots .owl-dot {
+  position: relative;
+  display: inline-block;
+  width: 10px!important;
+  height: 10px;
+  border-radius: 55px;
+  background-color: #f6e5e5;
+  margin: 0px;
+  padding: 0px;
+  transition: all 100ms linear;
+  transition-delay: 0.1s;
+}
+.gallery-two__carousel.owl-carousel .owl-dots .owl-dot .active{
+  background-color: #BE1428!important;
+}
+
+.gallery-two__carousel.owl-carousel .owl-dots .owl-dot + .owl-dot {
+margin-left: 7px;
+}
+
 
 }
 
