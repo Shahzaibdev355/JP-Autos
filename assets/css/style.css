@@ -1220,7 +1220,7 @@ ul {
 }
 
 .main-menu .mobile-nav__toggler:hover {
-  color: var(--crank-white);
+  color: var(--crank-base);
 }
 
 @media (min-width: 1200px) {
@@ -1279,7 +1279,7 @@ ul {
 
 .mobile-nav__content {
   width: 300px;
-  background-color: var(--crank-black);
+  background-color: white;
   z-index: 10;
   position: relative;
   height: 100%;
@@ -1321,7 +1321,7 @@ ul {
   top: 20px;
   right: 15px;
   font-size: 18px;
-  color: var(--crank-white);
+  color: black;
   cursor: pointer;
 }
 
@@ -1340,10 +1340,10 @@ ul {
   margin-left: 0.5em;
 }
 
-.mobile-nav__content .main-menu__list>li:not(:last-child),
-.mobile-nav__content .main-menu__list>li>ul>li:not(:last-child),
-.mobile-nav__content .main-menu__list>li>ul>li>ul>li:not(:last-child) {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+.mobile-nav__content .main-menu__list>li,
+.mobile-nav__content .main-menu__list>li>ul>li,
+.mobile-nav__content .main-menu__list>li>ul>li>ul>li {
+  border-bottom: 1px solid gainsboro;
 }
 
 .mobile-nav__content .main-menu__list>li>a>.main-menu-border {
@@ -1360,7 +1360,7 @@ ul {
   -ms-flex-pack: justify;
   justify-content: space-between;
   line-height: 30px;
-  color: #ffffff;
+  color: black;
   font-size: 14px;
   font-family: var(--crank-font);
   font-weight: 500;
@@ -1467,10 +1467,11 @@ ul {
 }
 
 .mobile-nav__social a {
-  font-size: 16px;
-  color: var(--crank-white);
+  font-size: 28px;
+  color: var(--crank-base);
   -webkit-transition: 500ms;
   transition: 500ms;
+  padding-left: 3px;
 }
 
 .mobile-nav__social a+a {
@@ -1505,7 +1506,7 @@ ul {
 }
 
 .mobile-nav__contact li a {
-  color: #ffffff;
+  color: black;
   -webkit-transition: 500ms;
   transition: 500ms;
 }
@@ -2266,7 +2267,7 @@ ul {
   color: #BE1428;
 }
 
-.car-info-br{
+.car-info-br {
   display: none;
 }
 
@@ -2278,7 +2279,7 @@ ul {
   }
 
   .about-one {
-   
+
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 
@@ -2295,17 +2296,17 @@ ul {
   }
 
   .service-details__bottom {
-   
+
     margin-top: 5pc;
   }
 
-  .my-journey-row{
-    flex-direction: column-reverse!important;
-    margin-top: 4pc!important;
-    margin-bottom: 4pc!important;
+  .my-journey-row {
+    flex-direction: column-reverse !important;
+    margin-top: 4pc !important;
+    margin-bottom: 4pc !important;
   }
-  
-  .cta-one{
+
+  .cta-one {
     margin-top: 4pc;
   }
 
@@ -2313,12 +2314,13 @@ ul {
     padding-bottom: 2.5pc;
     width: 35%;
   }
+
   .cta-one__inner-img2 {
     width: 30%;
   }
 
   .contact-two__inner {
-   
+
     border-radius: 40px;
 
   }
@@ -2333,7 +2335,7 @@ ul {
   }
 
   .faq-one .faq-one-accrodion .accrodion-title h4::before {
-   
+
     width: 35px;
     height: 35px;
     font-size: 18px;
@@ -2348,7 +2350,7 @@ ul {
 
   .testimonial-one__wrap {
     position: relative;
-  
+
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
 
@@ -2371,37 +2373,38 @@ ul {
   }
 
   .site-footer-three__top-inner {
-  
-      padding-left: 10px;
+
+    padding-left: 10px;
   }
 
   .scroll-to-top {
- 
+
     right: -42px;
   }
 
   .main-slider-two__shape-1 img {
     width: 100% !important;
   }
+
   .main-slider-two__shape-1 {
-   
+
     width: 100%;
   }
 
   .main-slider-two .item {
- 
+
     height: 45vh;
 
   }
 
- 
 
-  .car-info-br{
+
+  .car-info-br {
     display: block;
   }
 
   .main-slider-two__shape-1 {
-    
+
     opacity: 0.6;
 
   }
@@ -2411,11 +2414,11 @@ ul {
   }
 
   .service-details__bottom-title-cars {
-   
+
     padding-left: 10px;
   }
 
-  .service-details__bottom-text-cars{
+  .service-details__bottom-text-cars {
     font-size: 14px;
     padding-left: 10px;
     padding-right: 10px;
@@ -2423,36 +2426,37 @@ ul {
 
 
   .pricing-two__btn-box {
-    
+
     padding-bottom: 35px;
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .car-info-row {
-   
+
     margin-top: 2pc;
     padding: 0px;
   }
 
   .service-details__text-3 {
-   
+
     font-size: 14px;
   }
-  
-  .service-details__text-3 span br{
+
+  .service-details__text-3 span br {
     display: none;
   }
 
-  .product-description__list ul li{
+  .product-description__list ul li {
     padding-bottom: 7px;
   }
+
   .product-description__list ul li p {
     font-size: 14px;
   }
 
   .service-details__single {
-  
+
     padding: 25px 20px 25px;
     margin-bottom: 40px;
   }
@@ -2464,7 +2468,7 @@ ul {
   }
 
   .service-details__icon span {
-  
+
     font-size: 30px;
   }
 
@@ -2474,7 +2478,7 @@ ul {
   }
 
   .section-title {
-   
+
     margin-bottom: 0px;
 
   }
@@ -2483,30 +2487,50 @@ ul {
 
 
 
-.gallery-two__carousel.owl-carousel .owl-dots {
-  width: max-content;
-}
+  .gallery-two__carousel.owl-carousel .owl-dots {
+    width: max-content;
+    margin: auto !important;
+    margin-top: 60px !important;
+  }
 
 
-.gallery-two__carousel.owl-carousel .owl-dots .owl-dot {
-  position: relative;
-  display: inline-block;
-  width: 10px!important;
-  height: 10px;
-  border-radius: 55px;
-  background-color: #f6e5e5;
+  .gallery-two__carousel.owl-carousel .owl-dots .owl-dot {
+    /* position: relative;
+  display: inline-block; */
+    width: 10px !important;
+    height: 10px;
+    border-radius: 55px;
+    /* background-color: #f6e5e5;
   margin: 0px;
   padding: 0px;
   transition: all 100ms linear;
-  transition-delay: 0.1s;
-}
-.gallery-two__carousel.owl-carousel .owl-dots .owl-dot .active{
-  background-color: #BE1428!important;
-}
+  transition-delay: 0.1s; */
+  }
 
-.gallery-two__carousel.owl-carousel .owl-dots .owl-dot + .owl-dot {
-margin-left: 7px;
-}
+  /* .gallery-two__carousel.owl-carousel .owl-dots .owl-dot .active{
+  background-color: #BE1428!important;
+} */
+
+  .gallery-two__carousel.owl-carousel .owl-dots .owl-dot+.owl-dot {
+    margin-left: 7px;
+  }
+
+  .contact-two__inner-contact {
+
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+
+  }
+
+  .contact-three__inner {
+
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+
+  .main-menu-four__btn-box {
+    margin-bottom: 20px;
+  }
 
 
 }
