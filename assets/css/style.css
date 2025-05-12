@@ -2278,6 +2278,16 @@ ul {
     width: 170px;
   }
 
+  .main-slider {
+
+    padding: 0px 0px;
+  }
+
+  .main-slider__wrap {
+
+    border-radius: 40px;
+  }
+
   .about-one {
 
     border-top-left-radius: 40px;
@@ -2479,7 +2489,7 @@ ul {
 
   .section-title {
 
-    margin-bottom: 0px;
+    margin-bottom: 35px;
 
   }
 
@@ -2532,6 +2542,24 @@ ul {
     margin-bottom: 20px;
   }
 
+  .services-one__title {
+  font-size: 18px;
+ 
+  margin-bottom: 5px;
+}
+
+.main-slider-two {
+ 
+  padding: 0px 0px;
+}
+
+.main-slider-two .item {
+ 
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
 
 }
 
