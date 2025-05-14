@@ -445,7 +445,8 @@
     /* position: absolute;
     top: -40px;
     right: 0; */
-    opacity: 10;
+    /* opacity: 10; */
+    opacity: 0.9;
 width: max-content;
 
     /* -webkit-transform: perspective(400px) rotateY(0deg) translateY(400px);
